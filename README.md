@@ -1,4 +1,4 @@
-Bookstore_website
+Bookstore_Website
 
 Mock Screen: https://www.figma.com/proto/jdaPo1ojOLofphsePdL45N/Book_website?node-id=250-4806&t=LyBbDWcfXpTcvBt2-1&scaling=scale-down&content-scaling=fixed&page-id=1%3A3
 
