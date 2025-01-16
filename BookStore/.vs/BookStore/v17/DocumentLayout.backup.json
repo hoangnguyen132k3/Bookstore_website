@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hanhn\\source\\repos\\BookStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\base\\baseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\informationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\informationtypeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|c:\\users\\hanhn\\source\\repos\\bookstore\\bookstore.bll\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1A2C3FF-CB51-49B0-AC70-8FDECFA82ED2}|BookStore.BLL\\BookStore.BLL.csproj|solutionrelative:bookstore.bll\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\Base\\BaseService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\Base\\BaseService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\Base\\BaseService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\Base\\BaseService.cs",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAwwO8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:33:03.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\UserService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\UserService.cs",
+              "ViewState": "AgIAAE0BAAAAAAAAAAAAAFcBAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:31:10.31Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "InformationTypeService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\InformationTypeService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\InformationTypeService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\InformationTypeService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\InformationTypeService.cs",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJQAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:28:35.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\EmailService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\EmailService.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwDAAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:28:06.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAAAMoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:26:20.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "BookStore.BLL\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\hanhn\\source\\repos\\BookStore\\BookStore.BLL\\Services\\CartService.cs",
+              "RelativeToolTip": "BookStore.BLL\\Services\\CartService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAABsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T12:23:04.027Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

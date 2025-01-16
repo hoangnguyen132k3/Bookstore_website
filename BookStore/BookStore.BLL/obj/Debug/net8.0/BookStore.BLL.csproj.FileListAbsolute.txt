@@ -1,0 +1,15 @@
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.AssemblyReference.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfoInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.AssemblyInfo.cs
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.csproj.CoreCompileInputs.cache
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.deps.json
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\bin\Debug\net8.0\BookStore.DAL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStor.549D0AC4.Up2Date
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\refint\BookStore.BLL.dll
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\BookStore.BLL.pdb
+C:\Users\hanhn\source\repos\BookStore\BookStore.BLL\obj\Debug\net8.0\ref\BookStore.BLL.dll

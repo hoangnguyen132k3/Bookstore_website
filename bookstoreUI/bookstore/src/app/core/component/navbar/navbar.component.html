@@ -1,0 +1,42 @@
+<div class="header">
+    <a routerLink="/" class="logo" style="color: #007bff;">Book Store</a>
+
+    <nav>
+        <a routerLink="/">Trang chủ</a>
+        <a routerLink="/category">Danh mục</a>
+        <a routerLink="/checkout">Đặt hàng</a>
+        <a routerLink="/contact">Hỗ trợ</a>
+        <a routerLink="/about">Giới thiệu</a>
+    </nav>
+
+    <!-- Thanh tìm kiếm -->
+    <div class="search-bar">
+        <input type="text" [(ngModel)]="searchTerm" placeholder="Search" />
+        <button (click)="search()"><i class="fa fa-search"></i>🔍</button>
+    </div>
+
+    <div class="header-icons">
+        <!-- Icon giỏ hàng -->
+        <div class="cart">
+            <button class="dropdown-button" (click)="goToPage('/cart')">🛒</button>
+        </div>
+
+        <!-- Icon người dùng -->
+        <div class="user-dropdown">
+            <button class="dropdown-button" (click)="toggleUserMenu()">👤</button>
+            <div id="user-options" class="dropdown-options" *ngIf="showUserMenu">
+              <!-- Hiển thị Login và Register khi chưa đăng nhập -->
+              <ng-container *ngIf="!isLoggedIn">
+                <a routerLink="/login" (click)="closeMenu()">Login</a>
+                <a routerLink="/register" (click)="closeMenu()">Register</a>
+              </ng-container>
+              <!-- Hiển thị Profile và Logout khi đã đăng nhập -->
+              <ng-container *ngIf="isLoggedIn">
+                <a routerLink="/profile" (click)="closeMenu()">Profile</a>
+                <a (click)="logout()">Logout</a>
+              </ng-container>
+            </div>
+          </div>
+          
+    </div>
+</div>

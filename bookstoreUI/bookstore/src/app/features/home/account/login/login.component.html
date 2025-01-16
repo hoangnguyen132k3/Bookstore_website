@@ -1,0 +1,29 @@
+<div class="login-container">
+  <app-navbar></app-navbar> <!-- Thêm navbar -->
+
+  <div class="content">
+    <!-- Phần ảnh minh họa -->
+    <div class="login-image">
+      <img src="https://cdn.popsww.com/blog/sites/2/2021/04/cam-tu-ky-bao.jpg" alt="Books">
+    </div>
+
+    <!-- Phần form đăng nhập -->
+    <div class="login-form">
+      <h2>Log in</h2>
+      <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="email">Email or Phone Number</label>
+          <input type="text" id="email" formControlName="email" placeholder="Enter your email or phone">
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" formControlName="password" placeholder="Enter your password">
+        </div>
+        <button type="submit" class="btn btn-primary" [disabled]="loginForm.invalid">Log In</button>
+      </form>
+      <p>Don't have an account? <a (click)="goToRegister()">Create Account</a></p>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

@@ -1,0 +1,65 @@
+
+<app-navbar></app-navbar> <!-- Thêm navbar -->
+<div class="cart-button-container">
+  <button 
+    class="btn btn-primary" 
+    (click)="proceedToCart()" 
+    style="background-color: #d32f2f; color: white; border: none; border-radius: 10px; width: 200px; height: 40px; margin-top: 20px; margin-left: 40px;">
+    ◀ Quay lại giỏ hàng
+  </button>
+</div>
+
+<div class="checkout-container">
+  
+    <div class="billing-details">
+      <h2>Thông tin giao hàng</h2>
+      <form [formGroup]="checkoutForm" (ngSubmit)="onSubmit()">
+        <input type="text" formControlName="fullName" placeholder="Tên đầy đủ*" />
+        <input type="text" formControlName="phoneNumber" placeholder="Số điện thoại*" />
+        <input type="text" formControlName="commune" placeholder="Xã/Phường*" />
+        <input type="text" formControlName="province" placeholder="Huyện*" />
+        <input type="text" formControlName="city" placeholder="Thành phố*" />
+        <input type="text" formControlName="streetAddress" placeholder="Địa chỉ nhà*" />
+      </form>
+    </div>
+  
+    <div class="order-summary">
+      <h2>Tóm tắt đơn hàng</h2>
+      <div *ngFor="let item of cartItems" class="cart-item">
+        <img [src]="item.image" alt="{{ item.name }}" />
+        <span>{{ item.name }}</span>
+        <span>{{ item.quantity }}</span>
+        <span>${{ item.price * item.quantity }}</span> <!-- Tính giá theo số lượng -->
+      </div>
+      <hr />
+      <div class="totals">
+        <p>Số lượng: <strong>{{ totalQuantity }}</strong></p>
+        <p>Phí vận chuyển: <strong>Miễn phí</strong></p>
+        <p>Tổng: <strong>${{ subtotal }}</strong></p>
+      </div>
+  
+      <div class="payment-methods">
+        <div class="payment-method">
+          <label style="display: block; margin-bottom: 10px;">
+            <input type="radio" name="payment" value="cod" [(ngModel)]="paymentMethod" checked />
+            Thanh toán khi nhận hàng
+          </label>
+          <label style="display: block; margin-bottom: 10px;">
+            <input type="radio" name="payment" value="bank" [(ngModel)]="paymentMethod" />
+            Thẻ tín dụng
+          </label>
+        </div>
+        
+        
+        <div class="cards">
+            <img src="https://banner2.cleanpng.com/20180501/wyw/avdbjl7k6.webp"  class="icon" />
+            <img src="https://athgroup.vn/upload/blocks/thumb_1920x0/ATH-kh%C3%A1m-ph%C3%A1-b%E1%BB%99-nh%E1%BA%ADn-di%E1%BB%87n-mastercard-4.png"  class="icon" />
+          </div>
+          
+      </div>
+  
+      <button (click)="onSubmit()">Đặt Hàng</button>
+    </div>
+  </div>
+  
+  <app-footer></app-footer>
